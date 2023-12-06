@@ -2,14 +2,12 @@
 import * as CONTENT from "../pages/content";
 import AccordionLayout from "../layouts/AccordionLayout.astro";
 import Card from "./Card.astro";
-// Importez la constante 'about' depuis votre fichier 'content.js'
-import { about } from "../pages/content.js";
 ---
 
 <ul class="shadow-box">
   <AccordionLayout title={"About"} icon={"mdi:account-badge-outline"}>
-    <p>{about.paragraph1}</p>
-    <p>{about.paragraph2}</p>
+    <p set:html={CONTENT.about.paragraph1} />
+    <p set:html={CONTENT.about.paragraph2} />
   </AccordionLayout>
 
   <AccordionLayout title={"Projects"} icon={"ion:md-build"}>
@@ -18,7 +16,7 @@ import { about } from "../pages/content.js";
         return (
           <Card
             title={item.title}
-            timeframe="2022-2023"
+            timeframe="2023"
             description={item.description}
             tags={item.tech}
             url={item.url}
@@ -38,7 +36,6 @@ import { about } from "../pages/content.js";
             timeframe={`${item.from} - ${item.to}`}
             description={item.location}
             tags={item.skills}
-            url={item.org_url}
             url_name={item.org}
           />
         );
@@ -62,57 +59,6 @@ import { about } from "../pages/content.js";
       })
     }
   </AccordionLayout>
-
-  <!-- <AccordionLayout title={"Certifications"} icon={"carbon:certificate"}>
-      {
-        CONTENT.certificates.map((item) => {
-          return (
-            <Card
-              title={item.title}
-              timeframe={item.issued}
-              description={item.org}
-              tags={item.description}
-              url={item.url}
-              url_name={"View Certificate"}
-            />
-          );
-        })
-      }
-    </AccordionLayout>
-
-    <AccordionLayout title={"Blogs/Writings"} icon={"ic:round-edit-note"}>
-      {
-        CONTENT.blogs.map((item) => {
-          return (
-            <Card
-              title={item.title}
-              timeframe={item.date}
-              description={item.description}
-              tags=""
-              url={item.url}
-              url_name={item.publisher}
-            />
-          );
-        })
-      }
-    </AccordionLayout>
-
-    <AccordionLayout title={"Achievements"} icon={"mdi:trophy-award"}>
-      {
-        CONTENT.achievements.map((item) => {
-          return (
-            <Card
-              title={item.title}
-              timeframe={item.year}
-              description={item.decription}
-              tags=""
-              url="#"
-              url_name=""
-            />
-          );
-        })
-      }
-    </AccordionLayout> -->
 
   <AccordionLayout title={"Contact"} icon={"ri:contacts-book-fill"}>
     {

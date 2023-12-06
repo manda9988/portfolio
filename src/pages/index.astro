@@ -17,7 +17,7 @@ import Footer from "../components/Footer.astro";
     />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>CV | {CONTENT.name}</title>
+    <title>{CONTENT.name} | Portfolio</title>
   </head>
   <body class="bg-background text-text flex flex-col min-h-screen">
     <Header />
@@ -45,6 +45,9 @@ import Footer from "../components/Footer.astro";
   * {
     transition: 350ms ease-in-out;
     font-family: "Manrope", sans-serif;
+  }
+  .highlight {
+    color: rgb(235, 235, 235);
   }
 
   @media only screen and (max-width: 480px) {
