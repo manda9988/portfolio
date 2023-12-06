@@ -13,7 +13,7 @@ export const about = {
 // Projects --> #project section
 export const projects = [
   {
-    title: "g.Blog",
+    title: "gBlog",
     description: "Une application pour la création d'articles généralistes.",
     url: "https://www.google.fr",
     tech: "Svelte, Vite, SCSS, PostgreSQL, Node.js, Express.",
@@ -60,7 +60,7 @@ export const education = [
     from: "2010",
     to: "2013",
     institute: "Université Paris 8",
-    course: "Licence Cinéma et Audiovisuel",
+    course: "Licence Audiovisuel",
     location: "Paris",
   },
 ];
@@ -74,8 +74,4 @@ export const contact = [
     source_name: "Github",
     source: "https://github.com/manda9988",
   },
-  // {
-  //   source_name: "LinkedIn",
-  //   source: "https://www.linkedin.com/in/peter-griffin",
-  // },
 ];
