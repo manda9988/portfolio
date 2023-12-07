@@ -60,8 +60,24 @@ export const education = [
     from: "2010",
     to: "2013",
     institute: "Université Paris 8",
-    course: "Licence Audiovisuel",
+    course: "Licence Cinéma et Audiovisuel",
     location: "Paris",
+  },
+];
+
+// Achievements --> #achievement section
+export const achievements = [
+  {
+    title: "Safety Hero Award",
+    year: "2020",
+    decription:
+      "Recognized for outstanding contributions to improving safety standards in Quahog.",
+  },
+  {
+    title: "Safety Innovation Prize",
+    year: "2018",
+    decription:
+      "Awarded for implementing innovative safety measures that yielded significant improvements.",
   },
 ];
 

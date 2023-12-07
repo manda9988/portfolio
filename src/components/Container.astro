@@ -60,6 +60,23 @@ import Card from "./Card.astro";
     }
   </AccordionLayout>
 
+  <AccordionLayout title={"Skills"} icon={"mdi:trophy-award"}>
+    {
+      CONTENT.achievements.map((item) => {
+        return (
+          <Card
+            title={item.title}
+            timeframe={item.year}
+            description={item.decription}
+            tags=""
+            url="#"
+            url_name=""
+          />
+        );
+      })
+    }
+  </AccordionLayout>
+
   <AccordionLayout title={"Contact"} icon={"ri:contacts-book-fill"}>
     {
       CONTENT.contact.map((item) => {

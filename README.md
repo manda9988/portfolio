@@ -1,4 +1,4 @@
-# Astro-Vitae | Personalized CV with minimal efforts
+<!-- # Astro-Vitae | Personalized CV with minimal efforts
 
 ![Astro-Vitae | Personalized CV with minimal efforts](public/screenshot.jpeg)
 
@@ -94,4 +94,4 @@ Astro-Vitae is licensed under the MIT license — see the [LICENSE](https://gith
   <img src="https://contrib.rocks/image?repo=uskhokhar/astro-vitae" />
 </a>
 
-Happy Hecking 🙌 
+Happy Hecking 🙌  -->
