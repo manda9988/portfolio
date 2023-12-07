@@ -6,8 +6,8 @@ module.exports = {
       colors: {
         text: "hsl(189, 87%, 97%)",
         background: "hsl(0, 0%, 4%)",
-        primary: "hsl(248, 65%, 39%)",
-        secondary: "hsl(0, 0%, 8%)",
+        secondary: "hsl(0, 0%, 10%)",
+        primary: "hsl(201, 95%, 10%)",
       },
     },
   },

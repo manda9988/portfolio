@@ -65,27 +65,17 @@ export const education = [
   },
 ];
 
-// Achievements --> #achievement section
-export const achievements = [
-  {
-    title: "Safety Hero Award",
-    year: "2020",
-    decription:
-      "Recognized for outstanding contributions to improving safety standards in Quahog.",
-  },
-  {
-    title: "Safety Innovation Prize",
-    year: "2018",
-    decription:
-      "Awarded for implementing innovative safety measures that yielded significant improvements.",
-  },
-];
+// Skills
+export const skills = {
+  text: "JavaScript | Svelte | React | SCSS | Astro | PostgreSQL | Node.js | Tailwind | API | Express | GitHub | Visual Studio Code",
+};
 
 // Contact --> #contact section
 export const contact = [
   {
     source_name: "vincent.achy@gmail.com",
   },
+
   {
     source_name: "Github",
     source: "https://github.com/manda9988",

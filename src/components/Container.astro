@@ -61,34 +61,14 @@ import Card from "./Card.astro";
   </AccordionLayout>
 
   <AccordionLayout title={"Skills"} icon={"mdi:trophy-award"}>
-    {
-      CONTENT.achievements.map((item) => {
-        return (
-          <Card
-            title={item.title}
-            timeframe={item.year}
-            description={item.decription}
-            tags=""
-            url="#"
-            url_name=""
-          />
-        );
-      })
-    }
+    <p>{CONTENT.skills.text}</p>
   </AccordionLayout>
 
   <AccordionLayout title={"Contact"} icon={"ri:contacts-book-fill"}>
     {
       CONTENT.contact.map((item) => {
         return (
-          <Card
-            title={""}
-            timeframe=""
-            description=""
-            tags=""
-            url={item.source}
-            url_name={item.source_name}
-          />
+          <Card title={""} url={item.source} url_name={item.source_name} />
         );
       })
     }
