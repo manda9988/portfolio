@@ -1,6 +1,7 @@
 ---
 import { Icon } from "astro-icon";
-const { timeframe, title, description, url, tags, url_name } = Astro.props;
+const { timeframe, title, description, url, tags, url_name, showIcon } =
+  Astro.props;
 ---
 
 <div
@@ -26,7 +27,7 @@ const { timeframe, title, description, url, tags, url_name } = Astro.props;
     >
       {url_name}
       {
-        url !== "#" && (
+        url !== "#" && showIcon && (
           <Icon name="icon-park-outline:unlink" class="w-4 h-4 ml-2" />
         )
       }

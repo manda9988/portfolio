@@ -21,6 +21,7 @@ import Card from "./Card.astro";
             tags={item.tech}
             url={item.url}
             url_name={"Open Project"}
+            showIcon={item.showIcon}
           />
         );
       })
@@ -37,6 +38,7 @@ import Card from "./Card.astro";
             description={item.location}
             tags={item.skills}
             url_name={item.org}
+            showIcon={item.showIcon}
           />
         );
       })
@@ -60,15 +62,24 @@ import Card from "./Card.astro";
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Skills"} icon={"mdi:trophy-award"}>
-    <p>{CONTENT.skills.text}</p>
+  <AccordionLayout title={"Hard Skills"} icon={"mdi:trophy-award"}>
+    <p>{CONTENT.hardSkills.text}</p>
+  </AccordionLayout>
+
+  <AccordionLayout title={"Soft Skills"} icon={"mdi:trophy-award"}>
+    <p>{CONTENT.softSkills.text}</p>
   </AccordionLayout>
 
   <AccordionLayout title={"Contact"} icon={"ri:contacts-book-fill"}>
     {
       CONTENT.contact.map((item) => {
         return (
-          <Card title={""} url={item.source} url_name={item.source_name} />
+          <Card
+            title={""}
+            url={item.source}
+            url_name={item.source_name}
+            showIcon={item.showIcon}
+          />
         );
       })
     }

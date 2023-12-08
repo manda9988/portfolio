@@ -23,8 +23,15 @@ import Footer from "../components/Footer.astro";
     <Header />
 
     <!-- Bar Effect -->
-    <article class="mx-auto max-w-3xl w-[95vw]">
-      <div class="bg-secondary h-1"></div>
+    <article class="mx-auto h-fit max-w-3xl w-[95vw] flex flex-nowrap">
+      <div class="bg-blue-950 w-full h-0.5" id="one"></div>
+      <div
+        class="bg-blue-800 hover:scale-x-[2] h-0.5"
+        style="width: 145%;"
+        id="two"
+      >
+      </div>
+      <div class="bg-blue-950 w-full h-0.5" id="three"></div>
     </article>
 
     <main

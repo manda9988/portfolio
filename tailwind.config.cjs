@@ -7,7 +7,6 @@ module.exports = {
         text: "hsl(189, 87%, 97%)",
         background: "hsl(0, 0%, 4%)",
         secondary: "hsl(0, 0%, 10%)",
-        primary: "hsl(201, 95%, 10%)",
       },
     },
   },

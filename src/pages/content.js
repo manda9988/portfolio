@@ -17,6 +17,7 @@ export const projects = [
     description: "Une application pour la création d'articles généralistes.",
     url: "https://www.google.fr",
     tech: "Svelte, Vite, SCSS, PostgreSQL, Node.js, Express.",
+    showIcon: true,
   },
   {
     title: "Architect",
@@ -24,6 +25,7 @@ export const projects = [
       "Un site présentant les projets éclectiques et innovants d'une jeune agence d'architecture.",
     url: "https://www.google.fr",
     tech: "React, Vite, SCSS, Node.js, TypeScript, Express.",
+    showIcon: true,
   },
 ];
 
@@ -36,6 +38,7 @@ export const work = [
     org: "Tremplin Numérique",
     location: "Paris",
     skills: "HTML, CSS, SCSS, JavaScript.",
+    showIcon: false, // Pas d'icône pour cet élément
   },
   {
     from: "2012",
@@ -44,6 +47,7 @@ export const work = [
     org: "Association ACC",
     location: "Chantilly",
     skills: "Final Cut Pro, iMovie.",
+    showIcon: false, // Pas d'icône pour cet élément
   },
 ];
 
@@ -66,18 +70,23 @@ export const education = [
 ];
 
 // Skills
-export const skills = {
-  text: "JavaScript | Svelte | React | SCSS | Astro | PostgreSQL | Node.js | Tailwind | API | Express | GitHub | Visual Studio Code",
+export const hardSkills = {
+  text: "JavaScript | Svelte | React | SCSS | Astro | PostgreSQL | Node.js | Tailwind | API REST | Express | GitHub | Visual Studio Code.",
+};
+export const softSkills = {
+  text: "Communication | Travail d'équipe | Créativité | Adaptabilité | Gestion du temps | Organisé.",
 };
 
 // Contact --> #contact section
 export const contact = [
   {
     source_name: "vincent.achy@gmail.com",
+    showIcon: false, // Pas d'icône pour cet élément
   },
 
   {
     source_name: "Github",
     source: "https://github.com/manda9988",
+    showIcon: true,
   },
 ];
