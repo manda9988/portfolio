@@ -6,5 +6,5 @@ import alpinejs from "@astrojs/alpinejs";
 export default defineConfig({
   integrations: [tailwind(), alpinejs()],
 
-  site: "https://manda9988.github.io",
+  site: "https://vincentachy.fr",
 });
