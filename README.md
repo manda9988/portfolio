@@ -78,7 +78,7 @@ To add or remove a field from the CV, simply go to `Container.astro` in `src/com
 ![Accordion_code](public/accordion_code.png)
 
 - To Add a new field, add a new `<AccordionLayout />` component, with appropriate props and child component. Make sure add the data of field in proper format in `content.js`.
-- To Remove an already existing field, simply comment out the `<AccordionLayout />` component of that particular field or remove it. Removing its content from `content.js` is a choice.
+- To Remove an already existing field, simply comment out the `<AccordionLayout />` component of that particular field or remove it. Removing its content from `content.js` is a choce.
 
 ## Contributing
 
