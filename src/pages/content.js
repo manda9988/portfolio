@@ -1,6 +1,6 @@
 // Personal Information --> #hero section
 export const name = "Vincent Achy";
-export const designation = "Développeur web | Intégrateur";
+export const designation = "Développeur web | Svelte/React";
 
 // About
 export const about = {
@@ -13,19 +13,21 @@ export const about = {
 // Projects --> #project section
 export const projects = [
   {
-    title: "gBlog",
+    title: "gBlog | In progress",
     description: "Une application pour la création d'articles généralistes.",
     url: "https://www.google.fr",
     tech: "Svelte, Vite, SCSS, PostgreSQL, Node.js, Express.",
     showIcon: true,
+    timeframe: "2024", // Champ ajouté
   },
   {
     title: "Architect",
     description:
       "Un site présentant les projets éclectiques et innovants d'une jeune agence d'architecture.",
     url: "https://www.google.fr",
-    tech: "React, Vite, SCSS, Node.js, TypeScript, Express.",
+    tech: "Svelte, Vite, SCSS, Node.js, TypeScript, Express.",
     showIcon: true,
+    timeframe: "2023", // Champ ajouté
   },
 ];
 
@@ -34,10 +36,10 @@ export const work = [
   {
     from: "2022",
     to: "2023",
-    role: "Formateur Intégrateur Web",
+    role: "Stage Développeur Web React / Svelte",
     org: "Tremplin Numérique",
     location: "Paris",
-    skills: "HTML, CSS, SCSS, JavaScript.",
+    skills: "HTML, SCSS, Svelte, React, JavaScript.",
     showIcon: false, // Pas d'icône pour cet élément
   },
   {
