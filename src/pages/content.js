@@ -43,12 +43,23 @@ export const work = [
     showIcon: false, // Pas d'icône pour cet élément
   },
   {
-    from: "2012",
+    from: "2020",
     to: "2022",
+    role: "Technicien d’Assistance Informatique",
+    org: "École Camille Claudel",
+    location: "Rantigny",
+    skills:
+      "Dépannage, Réseau, Hardware, Communication technique",
+    showIcon: false, // Pas d'icône pour cet élément
+  },
+  {
+    from: "2012",
+    to: "2020",
     role: "Monteur Vidéo",
-    org: "Association ACC",
-    location: "Chantilly",
-    skills: "Final Cut Pro, iMovie.",
+    org: "Club Cinéma Cauffry",
+    location: "Cauffry",
+    skills:
+      "Final Cut Pro, iMovie, Étalonnage, Post-production audio",
     showIcon: false, // Pas d'icône pour cet élément
   },
 ];
