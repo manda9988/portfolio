@@ -6,8 +6,10 @@ import Card from "./Card.astro";
 
 <ul class="shadow-box">
   <AccordionLayout title={"About"} icon={"mdi:account-badge-outline"}>
-    <p set:html={CONTENT.about.paragraph1} />
-    <p set:html={CONTENT.about.paragraph2} />
+    <p class="text-justify" set:html={CONTENT.about.paragraph1} />
+    <p class="text-justify" set:html={CONTENT.about.paragraph2} />
+    <p class="text-justify mt-4" set:html={CONTENT.about.paragraph3} />
+    <p class="text-justify" set:html={CONTENT.about.paragraph4} />
   </AccordionLayout>
 
   <AccordionLayout title={"Projects"} icon={"ion:md-build"}>

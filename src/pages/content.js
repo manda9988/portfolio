@@ -1,3 +1,5 @@
+// content.js
+
 // Personal Information --> #hero section
 export const name = "Vincent Achy";
 export const designation = "Développeur web | Svelte/React";
@@ -5,9 +7,13 @@ export const designation = "Développeur web | Svelte/React";
 // About
 export const about = {
   paragraph1:
-    "Formé à l'école O'Clock et par mes expériences autodidactes, je me suis consacré au développement web depuis 3 ans. J'ai acquis de bonnes compétences en pratiquant des technologies variées comme: <span class='highlight'>JavaScript, SCSS, Svelte, React, Node.js, Express et PostgreSQL</span>.",
+    "Formé à l'école O'Clock et par mes expériences professionnelles, je me consacre au développement web depuis trois ans. ",
   paragraph2:
-    "Mon expérience professionnelle m'a apporté des compétences essentielles en communication et travail d'équipe. Motivé par l'innovation et le développement de solutions pratiques, je suis prêt à m'engager dans des projets constructifs, apportant mon savoir-faire et ma capacité d'adaptation.",
+    "J'ai acquis de solides compétences en pratiquant diverses technologies telles que: <span class='highlight'>JavaScript, SCSS, Svelte, React, Node.js, Express et PostgreSQL.</span>",
+  paragraph3:
+    "Mon parcours professionnel m'a apporté des aptitudes essentielles en communication et en travail d'équipe.",
+  paragraph4:
+    " Motivé par l'innovation, je suis prêt à m'engager dans des projets constructifs en apportant ma capacité d'adaptation et mon savoir-faire.",
 };
 
 // Projects --> #project section
@@ -48,8 +54,7 @@ export const work = [
     role: "Technicien d’Assistance Informatique",
     org: "École Camille Claudel",
     location: "Rantigny",
-    skills:
-      "Dépannage, Réseau, Hardware, Communication technique",
+    skills: "Dépannage, Réseau, Hardware, Communication technique",
     showIcon: false, // Pas d'icône pour cet élément
   },
   {
@@ -58,8 +63,7 @@ export const work = [
     role: "Monteur Vidéo",
     org: "Club Cinéma Cauffry",
     location: "Cauffry",
-    skills:
-      "Final Cut Pro, iMovie, Étalonnage, Post-production audio",
+    skills: "Final Cut Pro, iMovie, Étalonnage, Post-production audio",
     showIcon: false, // Pas d'icône pour cet élément
   },
 ];
