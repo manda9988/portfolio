@@ -1,97 +1,61 @@
-<!-- # Astro-Vitae | Personalized CV with minimal efforts
+Oui, j'ai assez d'infos pour t'aider à écrire ton README.md. Voici une suggestion :
 
-![Astro-Vitae | Personalized CV with minimal efforts](public/screenshot.jpeg)
+````markdown
+# Astro CV
 
-Astro-Vitae is a free, personalized CV template with sleek & minimal design which helps in simplifying the process of getting a CV for yourself. So much so that someone with minimal knowledge of coding can easily get their CV just by updating their details.
+Astro CV est un projet de portfolio personnel utilisant Astro et Tailwind CSS. Ce projet permet de créer et de déployer un site web statique pour afficher des informations professionnelles et des projets.
 
-## Demo
+## Table des matières
 
-View a live demo of [Astro-Vitae](https://astro-vitae.vercel.app/)
-
-## Requirements
-
-```
-- Git & Github Account
-- NPM (Node Package Manager)
-- A text-editor
-```
+- [Installation](#installation)
+- [Utilisation](#utilisation)
+- [Configuration](#configuration)
+- [Licence](#licence)
 
 ## Installation
 
-After cloning and setting up the project files on your local machine, run the following command in your terminal
+Pour installer le projet, clone ce dépôt et installe les dépendances :
 
 ```bash
+git clone https://github.com/votre-utilisateur/astro-cv.git
+cd astro-cv
 npm install
 ```
+````
 
-Once the packages are installed you are ready to run astro. Astro comes with a built-in development server that has everything you need for project development. The astro dev command will start the local development server so that you can see your new website in action for the very first time.
+## Utilisation
+
+Pour démarrer le serveur de développement, utilisez :
 
 ```bash
 npm run dev
 ```
 
-## Tech Stack
+Pour construire le projet pour la production :
 
-- [Astro](https://astro.build)
-- [TailwindCSS](https://tailwindcss.com/)
-- [AlpineJs](https://alpinejs.dev/)
-
-## Project Structure
-
-```php
-├── src/
-│   ├── components/
-│   │   ├── Card.astro
-│   │   ├── Container.astro
-│   │   ├── Footer.astro
-│   │   └── Header.astro
-│   ├── layouts/
-│   │   └── AccordionLayout.astro
-│   │   └── BaseLayout.astro
-│   └── pages/
-│   │   ├── content.js
-│   │   └── index.astro
-├── public/
-│   ├── favicon.svg
-│   └── profile.jpg
-│   └── screenshot.jpeg
-├── astro.config.mjs
-├── tailwind.config.cjs
-├── package.json
-├── README.md
-├── .gitignore
-└── tsconfig.json
+```bash
+npm run build
 ```
 
-## Using & Editing the content
+Pour prévisualiser le build de production :
 
-In order to change the content of the CV, all you have to do is update it in the `content.js` file in `/src` folder.
+```bash
+npm run preview
+```
 
-![Content Code](public/content_code.png)
+## Configuration
 
-In `src/content.js` all variables contain information that is to be reflected in the UI. In order to change it, simply update the values with your data. The personal information is fairly simple, content for the likes of work, projects, etc are stored as JavaScript objects.
+Le projet utilise plusieurs fichiers de configuration clés :
 
-#### Adding or Removing a field
+- **astro.config.mjs** : Configuration d'Astro, incluant les intégrations avec Tailwind CSS et Alpine.js.
+- **tailwind.config.cjs** : Configuration de Tailwind CSS pour personnaliser les couleurs et autres styles.
+- **package.json** : Contient les scripts de démarrage et les dépendances du projet.
 
-To add or remove a field from the CV, simply go to `Container.astro` in `src/components/`
+## Licence
 
-![Accordion_code](public/accordion_code.png)
+Ce projet est sous licence MIT. Voir le fichier [LICENSE.md](LICENSE.md) pour plus de détails.
 
-- To Add a new field, add a new `<AccordionLayout />` component, with appropriate props and child component. Make sure add the data of field in proper format in `content.js`.
-- To Remove an already existing field, simply comment out the `<AccordionLayout />` compnent of that particular field or remove it. Removing its content from `content.js` is a choce.
+```
 
-## Contributing
-
-Suggestions and pull requests are welcomed! Feel free to open a discussion or an [issue](https://github.com/uskhokhar/astro-vitae/issues) for a new feature request or bug.
-
-## License
-
-Astro-Vitae is licensed under the MIT license — see the [LICENSE](https://github.com/uskhokhar/astro-vitae/blob/main/LICENSE) file for details.
-
-## Contributors
-
-<a href="https://github.com/uskhokhar/astro-vitae/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=uskhokhar/astro-vitae" />
-</a>
-
-Happy Hecking 🙌  -->
+N'oublie pas de mettre à jour le lien vers ton dépôt GitHub et d'ajuster les sections si nécessaire.
+```
