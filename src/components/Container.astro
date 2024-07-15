@@ -4,6 +4,7 @@ import AccordionLayout from "../layouts/AccordionLayout.astro";
 import Card from "./Card.astro";
 ---
 
+<!-- container.astro -->
 <ul class="shadow-box">
   <AccordionLayout title={"About"} icon={"mdi:account-badge-outline"}>
     <p class="text-justify" set:html={CONTENT.about.paragraph1} />
@@ -59,7 +60,6 @@ import Card from "./Card.astro";
             timeframe={`${item.from} - ${item.to}`}
             description={item.location}
             tags={""}
-            url={"#"}
             url_name={item.institute}
           />
         );

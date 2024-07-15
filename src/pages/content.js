@@ -19,12 +19,12 @@ export const about = {
 // Projects --> #project section
 export const projects = [
   {
-    title: "gBlog | In progress",
+    title: "Blog_",
     description: "Une application pour la création d'articles généralistes.",
     url: "https://www.google.fr",
     tech: "Svelte, Vite, SCSS, PostgreSQL, Node.js, Express.",
     showIcon: true,
-    timeframe: "2024", // Champ ajouté
+    timeframe: "2024",
   },
   {
     title: "Architect",
@@ -33,7 +33,7 @@ export const projects = [
     url: "https://www.google.fr",
     tech: "Svelte, Vite, SCSS, Node.js, TypeScript, Express.",
     showIcon: true,
-    timeframe: "2023", // Champ ajouté
+    timeframe: "2023",
   },
 ];
 
@@ -45,31 +45,38 @@ export const work = [
     role: "Stage Développeur Web React / Svelte",
     org: "Tremplin Numérique",
     location: "Paris",
-    skills: "HTML, SCSS, Svelte, React, JavaScript.",
-    showIcon: false, // Pas d'icône pour cet élément
+    skills: "SCSS, Svelte, React, JavaScript.",
+    showIcon: false,
   },
   {
     from: "2020",
     to: "2022",
     role: "Technicien d’Assistance Informatique",
-    org: "École Camille Claudel",
+    org: "Médiathèque C.Claudel",
     location: "Rantigny",
-    skills: "Dépannage, Réseau, Hardware, Communication technique",
-    showIcon: false, // Pas d'icône pour cet élément
+    skills: "Réseau, Hardware, Communication technique.",
+    showIcon: false,
   },
   {
     from: "2012",
     to: "2020",
     role: "Monteur Vidéo",
-    org: "Club Cinéma Cauffry",
+    org: "Association ACC",
     location: "Cauffry",
-    skills: "Final Cut Pro, iMovie, Étalonnage, Post-production audio",
+    skills: "Final Cut Pro, Étalonnage, Post-production audio.",
     showIcon: false, // Pas d'icône pour cet élément
   },
 ];
 
 // Education --> #education section
 export const education = [
+  {
+    from: "2023",
+    to: "2024",
+    institute: "freeCodeCamp",
+    course: "Certification en conception de sites Web réactifs",
+    location: "Paris",
+  },
   {
     from: "2022",
     to: "2023",
@@ -88,7 +95,7 @@ export const education = [
 
 // Skills
 export const hardSkills = {
-  text: "JavaScript | Svelte | React | SCSS | Astro | PostgreSQL | Node.js | Tailwind | API REST | Express | GitHub | Visual Studio Code.",
+  text: "JavaScript | Svelte | React | SCSS | Astro | PostgreSQL | Node.js | Tailwind | API | Express | GitHub | Visual Studio Code.",
 };
 export const softSkills = {
   text: "Communication | Travail d'équipe | Créativité | Adaptabilité | Gestion du temps | Organisé.",
