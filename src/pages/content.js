@@ -7,7 +7,7 @@ export const designation = "Développeur web | Svelte/React";
 // About
 export const about = {
   paragraph1:
-    "Formé à l'école O'Clock et par mes expériences professionnelles, je me consacre au développement web depuis trois ans. ",
+    "Formé à l'école O'Clock et par mes expériences autodidactes et professionnelles, je me consacre au développement web depuis trois ans. ",
   paragraph2:
     "J'ai acquis de solides compétences en pratiquant diverses technologies telles que: <span class='highlight'>JavaScript, SCSS, Svelte, React, Node.js, Express et PostgreSQL.</span>",
   paragraph3:
@@ -29,7 +29,7 @@ export const projects = [
   {
     title: "Architect",
     description:
-      "Un site présentant les projets éclectiques et innovants d'une jeune agence d'architecture.",
+      "Un site présentant les projets innovants d'une jeune agence d'architecture.",
     url: "https://www.google.fr",
     tech: "Svelte, Vite, SCSS, Node.js, TypeScript, Express.",
     showIcon: true,
@@ -111,6 +111,11 @@ export const contact = [
   {
     source_name: "Github",
     source: "https://github.com/manda9988",
+    showIcon: true,
+  },
+  {
+    source_name: "LinkedIn",
+    source: "https://www.linkedin.com/in/vincent-achy-1704421a9/",
     showIcon: true,
   },
 ];
