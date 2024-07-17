@@ -57,7 +57,7 @@ import Card from "./Card.astro";
         return (
           <Card
             title={item.course}
-            timeframe={`${item.from} - ${item.to}`}
+            timeframe={item.from ? `${item.from} - ${item.to}` : `${item.to}`}
             description={item.location}
             tags={""}
             url_name={item.institute}

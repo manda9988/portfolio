@@ -71,15 +71,15 @@ export const work = [
 // Education --> #education section
 export const education = [
   {
-    from: "2023",
+    from: "",
     to: "2024",
     institute: "freeCodeCamp",
     course: "Certification en conception de sites Web réactifs",
     location: "Paris",
   },
   {
-    from: "2022",
-    to: "2023",
+    from: "2023",
+    to: "2024",
     institute: "O'clock",
     course: "Titre Professionnel Développeur Web et Web Mobile",
     location: "Paris",
