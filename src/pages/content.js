@@ -2,7 +2,7 @@
 
 // Personal Information --> #hero section
 export const name = "Vincent Achy";
-export const designation = "Développeur web | Svelte/React";
+export const designation = "Développeur Front-end | Svelte/React";
 
 // About
 export const about = {
@@ -28,8 +28,7 @@ export const projects = [
   },
   {
     title: "Architect",
-    description:
-      "Un site présentant les projets innovants d'une jeune agence d'architecture.",
+    description: "Un site présentant les travaux d'une agence d'architecture.",
     url: "https://www.google.fr",
     tech: "Svelte, Vite, SCSS, Node.js, TypeScript, Express.",
     showIcon: true,
@@ -78,6 +77,13 @@ export const education = [
     location: "Paris",
   },
   {
+    from: "",
+    to: "2024",
+    institute: "freeCodeCamp",
+    course: "Certification Algorithmes et structures de données JavaScript",
+    location: "Paris",
+  },
+  {
     from: "2023",
     to: "2024",
     institute: "O'clock",
@@ -116,6 +122,11 @@ export const contact = [
   {
     source_name: "LinkedIn",
     source: "https://www.linkedin.com/in/vincent-achy-1704421a9/",
+    showIcon: true,
+  },
+  {
+    source_name: "Mon CV",
+    source: "/cvFrontEnd.pdf",
     showIcon: true,
   },
 ];
