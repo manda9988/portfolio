@@ -21,15 +21,15 @@ export const projects = [
   {
     title: "Blog_",
     description: "Une application pour la création d'articles généralistes.",
-    url: "https://www.google.fr",
+    url: "https://gblog-bice.vercel.app/",
     tech: "Svelte, Vite, SCSS, PostgreSQL, Node.js, Express.",
     showIcon: true,
     timeframe: "2024",
   },
   {
-    title: "Architect",
+    title: "AMS_ Architects",
     description: "Un site présentant les travaux d'une agence d'architecture.",
-    url: "https://www.google.fr",
+    url: "https://ams-architects.vercel.app/",
     tech: "Svelte, Vite, SCSS, Node.js, TypeScript, Express.",
     showIcon: true,
     timeframe: "2023",
