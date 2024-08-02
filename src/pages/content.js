@@ -2,7 +2,7 @@
 
 // Personal Information --> #hero section
 export const name = "Vincent Achy";
-export const designation = "Développeur Front-end | Svelte/React";
+export const designation = "Développeur Front-End | Svelte / React";
 
 // About
 export const about = {
