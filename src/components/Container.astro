@@ -90,3 +90,17 @@ import Card from "./Card.astro";
     }
   </AccordionLayout>
 </ul>
+
+<style is:global>
+  .about-content {
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  @media only screen and (max-width: 480px) {
+    .text-justify {
+      font-size: 14px;
+      word-wrap: break-word;
+      margin-bottom: 1rem;
+    }
+  }
+</style>
