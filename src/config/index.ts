@@ -1,10 +1,10 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Vincent Achy — Développeur Front-End",
+  author: "Vincent Achy",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Développeur Front-End basé à Paris, spécialisé dans la création d’interfaces utilisateur et le développement d’applications web performantes et intuitives.",
   lang: "en",
   siteLogo: "/alejandro-small.jpg",
   navLinks: [
@@ -25,10 +25,11 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Vincent Achy",
+    specialty: "Développeur Front-End",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+      "Développeur Front-End basé à Paris, spécialisé dans la création d’interfaces utilisateur et le développement d’applications web performantes et intuitives.",
+
     email: "example@email.com",
   },
   experience: [
@@ -80,9 +81,11 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+      Développeur Front-End basé à Paris, spécialisé dans la création d’interfaces utilisateur et le développement d’applications web performantes et intuitives.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      Fort de quatre ans d’expérience avec des technologies telles que JavaScript, Svelte, React, SCSS, Node.js et Express, j’allie technique et créativité pour concevoir des solutions adaptées aux utilisateurs.
+
+      Passionné par les nouveaux défis, je suis prêt à mettre mes compétences au service de projets web innovants.
     `,
     image: "/alejandro-big.jpg",
   },
