@@ -27,8 +27,11 @@ export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Vincent Achy",
     specialty: "Développeur Front-End",
-    summary:
+    summary: [
       "Développeur Front-End basé à Paris, spécialisé dans la création d’interfaces utilisateur et le développement d’applications web performantes et intuitives.",
+      "Fort de quatre ans d’expérience avec des technologies telles que JavaScript, Svelte, React, SCSS, Node.js et Express, j’allie technique et créativité pour concevoir des solutions adaptées aux utilisateurs.",
+      "Passionné par les nouveaux défis, je suis prêt à mettre mes compétences au service de projets web innovants.",
+    ],
 
     email: "example@email.com",
   },

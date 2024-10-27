@@ -5,7 +5,7 @@ type Props = HeroProps;
 const { name, specialty, summary, email } = Astro.props;
 ---
 
-<div class="py-24 md:py-32" id="#hero">
+<div class="py-16 md:py-22" id="#hero">
   <h1
     class="text-7xl font-serif mb-1.5 sm:text-8xl md:text-9xl md:mb-0 text-white font-bold tracking-tightest"
   >
@@ -16,9 +16,13 @@ const { name, specialty, summary, email } = Astro.props;
   >
     {specialty}
   </p>
-  <p class="text-neutral font-normal text-base md:text-lg mb-16">
-    {summary}
-  </p>
+  {
+    summary.map((paragraph) => (
+      <p class="text-neutral font-normal text-base md:text-lg mb-4">
+        {paragraph}
+      </p>
+    ))
+  }
 
   <a
     class="text-sm py-5 px-8 text-[#fff] inline-block font-medium leading-5 bg-primary rounded-full"
