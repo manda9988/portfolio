@@ -29,7 +29,8 @@ export const SITE_CONTENT: SiteContent = {
     specialty: "Développeur Front-End",
     summary: [
       "Développeur Front-End basé à Paris, je me suis spécialisé dans la création d’interfaces utilisateur et le développement d’applications web performantes et intuitives.",
-      "Fort de quatre années d’expérience avec des technologies telles que JavaScript, Svelte, React, SCSS, Tailwind CSS, TypeScript et Node.js, j’allie technique et créativité pour concevoir des solutions adaptées aux utilisateurs.",
+      'Fort de quatre années d’expérience avec des technologies telles que <span class="text-custom1">JavaScript, Svelte, React, SCSS, Tailwind CSS, TypeScript et Node.js</span>, j’allie technique et créativité pour concevoir des solutions adaptées aux utilisateurs.',
+
       "Passionné par les nouveaux défis, je suis prêt à mettre mes compétences au service de projets web innovants.",
     ],
 

@@ -34,6 +34,8 @@ export default {
         neutral: "#94A3B8",
         white: "#E2E8F0",
         black: "#0E141B",
+        custom1: "#FFFFFF",
+        custom2: "#D0D0D0",
       },
       keyframes: {
         slideIn: {

@@ -18,9 +18,10 @@ const { name, specialty, summary } = Astro.props;
   </p>
   {
     summary.map((paragraph) => (
-      <p class="text-neutral font-normal text-base md:text-lg mb-4">
-        {paragraph}
-      </p>
+      <p
+        class="text-neutral font-normal text-base md:text-lg mb-4"
+        set:html={paragraph}
+      />
     ))
   }
 </div>
