@@ -6,7 +6,6 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Développeur Front-End basé à Paris, je me suis spécialisé dans la création d’interfaces utilisateur et le développement d’applications web performantes et intuitives.",
   lang: "en",
-
 };
 
 export const SITE_CONTENT: SiteContent = {
@@ -67,10 +66,4 @@ export const SITE_CONTENT: SiteContent = {
       image: "/shopify-clon.png",
     },
   ],
-  about: {
-    description: `
-     vincent.achy@gmail.com
-
-    `,
-  },
 };

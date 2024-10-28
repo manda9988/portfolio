@@ -9,7 +9,6 @@ export interface SiteContent {
   hero: HeroProps;
   experience: ExperienceProps[];
   projects: ProjectProps[];
-  about: AboutProps;
 }
 
 export interface HeroProps {
@@ -32,8 +31,4 @@ export interface ProjectProps {
   image: string;
   linkPreview?: string;
   linkSource?: string;
-}
-
-export interface AboutProps {
-  description: string;
 }

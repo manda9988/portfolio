@@ -1,15 +1,12 @@
 ---
 import Section from "./Section.astro";
-import type { AboutProps, HeroProps } from "@types";
-
-type Props = AboutProps & Pick<HeroProps, "name">;
-
-const { description } = Astro.props;
 ---
 
 <Section text="Contact" href="about">
   <div class="flex flex-col items-start gap-9">
-    <p class="text-neutral text-base">{description}</p>
+    <p class="text-neutral text-base">vincent.achy@gmail.com</p>
     <p class="text-neutral text-base">Curriculum vitae</p>
+    <p class="text-neutral text-base">GitHub</p>
+    <p class="text-neutral text-base">LinkedIn</p>
   </div>
 </Section>
