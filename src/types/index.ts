@@ -9,6 +9,7 @@ export interface SiteContent {
   hero: HeroProps;
   experience: ExperienceProps[];
   projects: ProjectProps[];
+  contact: ContactProps; // Mise à jour pour inclure contact
 }
 
 export interface HeroProps {
@@ -31,4 +32,9 @@ export interface ProjectProps {
   image: string;
   linkPreview?: string;
   linkSource?: string;
+}
+
+export interface ContactProps {
+  email: string;
+  links: { label: string; url: string }[];
 }

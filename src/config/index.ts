@@ -66,4 +66,12 @@ export const SITE_CONTENT: SiteContent = {
       image: "/shopify-clon.png",
     },
   ],
+  contact: {
+    email: "vincent.achy@gmail.com",
+    links: [
+      { label: "Curriculum vitae", url: "#" },
+      { label: "GitHub", url: "https://github.com/immois" },
+      { label: "LinkedIn", url: "https://linkedin.com/in/vincentachy" },
+    ],
+  },
 };
