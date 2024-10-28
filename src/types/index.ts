@@ -3,8 +3,6 @@ export interface SiteConfig {
   description: string;
   lang: string;
   author: string;
-  socialLinks: { text: string; href: string }[];
-  canonicalURL?: string;
 }
 
 export interface SiteContent {

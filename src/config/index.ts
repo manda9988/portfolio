@@ -7,12 +7,6 @@ export const SITE_CONFIG: SiteConfig = {
     "Développeur Front-End basé à Paris, je me suis spécialisé dans la création d’interfaces utilisateur et le développement d’applications web performantes et intuitives.",
   lang: "en",
 
-  socialLinks: [
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Curriculum vitae", href: "https://github.com/immois/astro-zen" },
-  ],
-  canonicalURL: "https://astro-zen.vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {

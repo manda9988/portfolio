@@ -11,8 +11,6 @@ const {
 
   lang,
   author,
-  socialLinks,
-  canonicalURL = new URL(Astro.url.pathname, Astro.site).href,
 } = SITE_CONFIG;
 ---
 
@@ -29,10 +27,8 @@ const {
 
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:url" content={canonicalURL} />
 
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={canonicalURL} />
     <meta property="twitter:title" content={title} />
     <meta property="twitter:description" content={description} />
     <ViewTransitions />
@@ -41,6 +37,6 @@ const {
     <main class="max-w-3xl px-5 mx-auto">
       <slot />
     </main>
-    <Footer author={author} socialLinks={socialLinks} />
+    <Footer author={author} />
   </body>
 </html>
