@@ -6,18 +6,13 @@ export const SITE_CONFIG: SiteConfig = {
   description:
     "Développeur Front-End basé à Paris, je me suis spécialisé dans la création d’interfaces utilisateur et le développement d’applications web performantes et intuitives.",
   lang: "en",
-  navLinks: [
-    { text: "Experience", href: "#experience" },
-    { text: "Projects", href: "#projects" },
-    { text: "About", href: "#about" },
-  ],
+
   socialLinks: [
     { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
     { text: "Github", href: "https://github.com/immois/astro-zen" },
     { text: "CV", href: "https://github.com/immois/astro-zen" },
     { text: "Contact", href: "https://github.com/immois/astro-zen" },
   ],
-  socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
 };
 
@@ -31,8 +26,6 @@ export const SITE_CONTENT: SiteContent = {
 
       "Passionné par les nouveaux défis, je suis prêt à mettre mes compétences au service de projets web innovants.",
     ],
-
-    email: "example@email.com",
   },
   experience: [
     {
@@ -86,6 +79,5 @@ export const SITE_CONTENT: SiteContent = {
      vincent.achy@gmail.com
 
     `,
-    image: "/alejandro-big.jpg",
   },
 };
