@@ -37,15 +37,6 @@ export default {
         custom1: "#FFFFFF",
         custom2: "#D0D0D0",
       },
-      keyframes: {
-        slideIn: {
-          "10%": { transform: "translateY(-100%)" },
-          "100%": { transform: "translateY(0)" },
-        },
-      },
-      animation: {
-        slideIn: "slideIn 600ms ease both",
-      },
     },
   },
   plugins: [],

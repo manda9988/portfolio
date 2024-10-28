@@ -10,8 +10,7 @@ export const SITE_CONFIG: SiteConfig = {
   socialLinks: [
     { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
     { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "CV", href: "https://github.com/immois/astro-zen" },
-    { text: "Contact", href: "https://github.com/immois/astro-zen" },
+    { text: "Curriculum vitae", href: "https://github.com/immois/astro-zen" },
   ],
   canonicalURL: "https://astro-zen.vercel.app",
 };
