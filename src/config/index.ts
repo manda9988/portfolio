@@ -35,7 +35,7 @@ export const SITE_CONTENT: SiteContent = {
       name: "FindMovies",
       summary: [
         "Une application pour découvrir des films populaires avec filtres par genre et année.",
-        "React, Next.js, Chakra UI, TypeScript, TMDb API, Tailwind CSS",
+        "React, Next.js, Chakra UI, TypeScript, TMDb API, Tailwind CSS.",
       ],
       linkPreview: "https://findmovies-rho.vercel.app/",
       linkSource: "https://github.com/manda9988/bestMoviesV2",
@@ -55,11 +55,11 @@ export const SITE_CONTENT: SiteContent = {
       name: "Ams-Architects",
       summary: [
         "Un site présentant les divers travaux d'une agence d'architecture.",
-        "Svelte, Vite, SCSS, TypeScript, Node.js, Express",
+        "Svelte, Vite, SCSS, TypeScript, Node.js, Express.",
       ],
       linkPreview: "https://ams-architects.vercel.app/",
       linkSource: "https://github.com/manda9988/mattArchi",
-      image: "/archi2.png",
+      image: "/archi.png",
     },
   ],
   contact: {
