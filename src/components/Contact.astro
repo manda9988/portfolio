@@ -5,7 +5,7 @@ import type { ContactProps } from "@types";
 const { email, links } = Astro.props as ContactProps;
 ---
 
-<Section text="Contact" href="contact">
+<Section text="Contact" href="contact" style="margin-bottom: 140px;" class="">
   <div class="flex flex-col items-start gap-5">
     <p class="text-neutral text-base">{email}</p>
     {

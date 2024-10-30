@@ -2,14 +2,17 @@
 interface Props {
   text: string;
   href: string;
+  class?: string;
+  style?: string;
 }
 
-const { text, href } = Astro.props;
+const { text, href, class: sectionClass, style } = Astro.props;
 ---
 
-<section id={href} class="mb-16">
+<section id={href} class={`${sectionClass || ""}`} style={style || ""}>
   <h2
-    class="text-4xl md:text-5xl font-serif font-bold tracking-tighter text-white mb-10"
+    class="text-4xl md:text-5xl font-serif font-bold tracking-tighter text-white"
+    style="margin-bottom: 26px;"
   >
     {text}
   </h2>
