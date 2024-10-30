@@ -35,24 +35,30 @@ export const SITE_CONTENT: SiteContent = {
   projects: [
     {
       name: "FindMovies",
-      summary:
-        "Une application pour découvrir des films populaires avec filtres par genre et année et un système de pagination dynamique.",
+      summary: [
+        "Une application pour découvrir des films populaires avec filtres par genre et année.",
+        "React, Next.js, Chakra UI, TypeScript, TMDb API, Tailwind CSS",
+      ],
       linkPreview: "https://findmovies-rho.vercel.app/",
       linkSource: "https://github.com/manda9988/bestMoviesV2",
       image: "/movies.png",
     },
     {
       name: "BlogWave",
-      summary:
+      summary: [
         "Un blog construit avec Astro, Tailwind CSS, React et Tailwind Bootstrap Grid.",
+        "Astro, Tailwind CSS, React et Tailwind Bootstrap Grid.",
+      ],
       linkPreview: "https://blog-vincent-achy.vercel.app/",
       linkSource: "https://github.com/manda9988/BlogV3",
       image: "/blog.png",
     },
     {
       name: "Ams-Architects",
-      summary:
+      summary: [
         "Un site présentant les divers travaux d'une agence d'architecture.",
+        "Svelte, Vite, SCSS, TypeScript, Node.js, Express",
+      ],
       linkPreview: "https://ams-architects.vercel.app/",
       linkSource: "https://github.com/manda9988/mattArchi",
       image: "/archi2.png",
