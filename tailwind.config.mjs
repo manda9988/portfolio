@@ -29,6 +29,17 @@ export default {
         tighter: "-1px",
         tight: "-0.25px",
       },
+      fontWeight: {
+        thin: "100",
+        extralight: "200",
+        light: "300",
+        normal: "400",
+        medium: "500",
+        semibold: "600",
+        bold: "700",
+        extrabold: "800",
+        black: "900",
+      },
       colors: {
         primary: "#2563EB",
         neutral: "#94A3B8",
