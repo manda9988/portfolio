@@ -31,39 +31,31 @@ export const SITE_CONTENT: SiteContent = {
         "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
       ],
     },
-    {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
-      summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
-      ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
-    },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "FindMovies",
+      summary:
+        "Une application pour découvrir des films populaires avec filtres par genre et année et un système de pagination dynamique.",
+      linkPreview: "https://findmovies-rho.vercel.app/",
+      linkSource: "https://github.com/manda9988/bestMoviesV2",
+      image: "/movies.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "BlogWave",
+      summary:
+        "Un blog construit avec Astro, Tailwind CSS, React et Tailwind Bootstrap Grid.",
+      linkPreview: "https://blog-vincent-achy.vercel.app/",
+      linkSource: "https://github.com/manda9988/BlogV3",
+      image: "/blog.png",
+    },
+    {
+      name: "Ams-Architects",
+      summary:
+        "Un site présentant les divers travaux d'une agence d'architecture.",
+      linkPreview: "https://ams-architects.vercel.app/",
+      linkSource: "https://github.com/manda9988/mattArchi",
+      image: "/archi2.png",
     },
   ],
   contact: {
