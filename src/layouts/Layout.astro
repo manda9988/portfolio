@@ -31,14 +31,15 @@ const {
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:title" content={title} />
     <meta property="twitter:description" content={description} />
+    <link rel="stylesheet" href="/src/styles/global.css" />
 
-    <!-- Ajout de l'import de Google Fonts avec les poids spécifiés -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap"
     />
     <ViewTransitions />
   </head>
+
   <body class="font-sans bg-black">
     <main class="max-w-3xl px-5 mx-auto">
       <slot />
