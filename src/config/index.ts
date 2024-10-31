@@ -37,7 +37,7 @@ export const SITE_CONTENT: SiteContent = {
         "Une application pour découvrir des films populaires avec filtres par genre et année.",
         "React, Next.js, Chakra UI, TypeScript, TMDb API, Tailwind CSS.",
       ],
-      linkPreview: "https://findmovies-rho.vercel.app/",
+      linkPreview: "https://findmovies-va.vercel.app/",
       linkSource: "https://github.com/manda9988/bestMoviesV2",
       image: "/movies1.png",
     },
@@ -45,7 +45,7 @@ export const SITE_CONTENT: SiteContent = {
       name: "BlogWave",
       summary: [
         "Un blog généraliste et réactif pour partager des articles techniques et personnels.",
-        "Astro, Tailwind CSS, React et Tailwind Bootstrap Grid.",
+        "Astro, React, Tailwind CSS, et Bootstrap.",
       ],
       linkPreview: "https://blog-vincent-achy.vercel.app/",
       linkSource: "https://github.com/manda9988/BlogV3",
