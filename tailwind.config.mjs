@@ -9,6 +9,7 @@ export default {
       serif: ["Gabarito Variable", ...defaultTheme.fontFamily.serif],
     },
     fontSize: {
+      xxs: ["0.7rem", "1rem"],
       xs: ["0.875rem", "1.125rem"],
       sm: ["1rem", "1.25rem"],
       base: ["1.125rem", "1.625rem"],
