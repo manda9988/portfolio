@@ -39,7 +39,7 @@ export const SITE_CONTENT: SiteContent = {
       ],
       linkPreview: "https://findmovies-rho.vercel.app/",
       linkSource: "https://github.com/manda9988/bestMoviesV2",
-      image: "/movies.png",
+      image: "/movies1.png",
     },
     {
       name: "BlogWave",
