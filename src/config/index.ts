@@ -4,7 +4,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Vincent Achy — Développeur Front-End",
   author: "Vincent Achy",
   description:
-    "Développeur Front-End basé à Paris, je me suis spécialisé dans la création d’interfaces utilisateur et le développement d’applications web performantes et intuitives.",
+    "Développeur Front-End basé à Paris, spécialisé dans la création d’interfaces utilisateur et le développement d’applications web performantes et intuitives.",
   lang: "en",
 };
 
@@ -13,7 +13,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Vincent Achy",
     specialty: "Développeur Front-End",
     summary: [
-      "Développeur Front-End basé à Paris, je me suis spécialisé dans la création d’interfaces utilisateur et le développement d’applications web performantes et intuitives.",
+      "Développeur Front-End basé à Paris, spécialisé dans la création d’interfaces utilisateur et le développement d’applications web performantes et intuitives.",
       'Avec quatre années d’expérience sur des technologies comme <span class="text-custom1">JavaScript, Svelte, React, SCSS, Tailwind CSS, TypeScript et Node.js</span>, j’allie technique et créativité pour concevoir des solutions adaptées aux utilisateurs.',
 
       "Passionné par les nouveaux défis, je suis prêt à mettre mes compétences au service de vos projets web.",
