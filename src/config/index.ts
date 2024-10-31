@@ -14,7 +14,7 @@ export const SITE_CONTENT: SiteContent = {
     specialty: "Développeur Front-End",
     summary: [
       "Développeur Front-End basé à Paris, spécialisé dans la création d’interfaces utilisateur et le développement d’applications web performantes et intuitives.",
-      'Avec quatre années d’expérience sur des technologies comme <span class="text-custom1">JavaScript, Svelte, React, SCSS, Tailwind CSS, TypeScript et Node.js</span>, j’allie technique et créativité pour concevoir des solutions adaptées aux utilisateurs.',
+      'Avec quatre années d’expérience sur des technologies comme <span class="text-custom1">JavaScript, Svelte, React, SCSS, Tailwind CSS, TypeScript et Node.js</span>, j’allie technique et innovation pour concevoir des solutions adaptées aux utilisateurs.',
 
       "Passionné par les nouveaux défis, je suis prêt à mettre mes compétences au service de vos projets web.",
     ],
@@ -65,7 +65,7 @@ export const SITE_CONTENT: SiteContent = {
   contact: {
     email: "vincent.achy@gmail.com",
     links: [
-      { label: "Curriculum vitae", url: "/cv-vincent-achy.pdf" },
+      { label: "Curriculum vitae", url: "/cv-vincent-achy1.pdf" },
       { label: "GitHub", url: "https://github.com/manda9988" },
       {
         label: "LinkedIn",
