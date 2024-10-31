@@ -1,30 +1,52 @@
-# AstroZen - Personal Portfolio Website
+# Portfolio de Vincent Achy — Développeur Front-End
 
-AstroZen is a minimalist, accessible and responsive portfolio template for your personal portfolio website. It is built with Astro and TailwindCSS.
+Bienvenue sur mon portfolio ! Ce site présente mes compétences en développement Front-End, mes projets, et mes informations de contact.
 
-![zen-og](https://github.com/user-attachments/assets/7a72aaae-6652-4cd0-becc-8e6a3c224993)
+## Fonctionnalités principales
 
-## 🔥 Features
+- **Section d’accueil (Hero)** : Présente mon parcours, ma spécialisation en développement d’interfaces utilisateur et d’applications web performantes.
+- **Projets** : Showcase de mes principaux projets avec un bref descriptif, technologies utilisées, et liens pour voir le projet ou le code source.
+- **Contact** : Informations pour me contacter et liens vers mon LinkedIn et GitHub.
 
-- [x] Minimalist design. clean and simple
-- [x] Mobile-first responsive layout
-- [x] SEO-friendly and accessible
-- [x] Easy to customize with a single configuration file
+## Technologies utilisées
 
-## ✅ Lighthouse Score
-![performance](https://github.com/user-attachments/assets/4f95e2ca-03f9-4996-9e34-dcd179194c58)
+- **[Astro](https://astro.build/)** : Framework principal pour la structure du site.
+- **[Tailwind CSS](https://tailwindcss.com/)** : Utilisé pour la gestion des styles et le design responsive.
+- **TypeScript** : Pour la robustesse du code.
+- **Polices** : _Be Vietnam Pro_ et _Gabarito Variable_.
 
-## 🚀 Getting Started
-Clone this repository to your local machine using Git.
+## Installation et démarrage
 
-```scheme
-git clone https://github.com/immois/astro-zen.git
-cd astro-zen
-```
+1. **Cloner le dépôt** :
 
-| Command           | Action                                       |
-| :---------------- | :------------------------------------------- |
-| `pnpm install`     | Installs dependencies                        |
-| `pnpm dev`     | Starts local dev server at `localhost:4321`  |
-| `pnpm build`   | Build your production site to `./dist/`      |
-| `pnpm preview` | Preview your build locally, before deploying |
+   ```bash
+   git clone https://github.com/manda9988/portfolioV3.git
+   cd portfolioV3
+   ```
+
+2. **Installer les dépendances** :
+
+   ```bash
+   pnpm install
+   ```
+
+3. **Démarrer le serveur de développement** :
+   ```bash
+   pnpm dev
+   ```
+   Le site est alors accessible sur `http://localhost:3000`.
+
+## Structure du projet
+
+- **`/src/components`** : Composants Astro (Hero, Projects, Contact).
+- **`/src/pages`** : Pages principales du site.
+- **`/public`** : Images et fichiers statiques.
+- **`tailwind.config.mjs`** : Configuration Tailwind pour les styles.
+- **`astro.config.mjs`** : Configuration Astro.
+
+## Auteur
+
+**Vincent Achy**  
+[LinkedIn](https://www.linkedin.com/in/vincent-achy-1704421a9/) | [GitHub](https://github.com/manda9988)
+
+---
