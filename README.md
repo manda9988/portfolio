@@ -18,7 +18,7 @@
 1. **Cloner le dépôt** :
 
    ```bash
-   git clone https://github.com/manda9988/portfolioV3.git
+   git clone https://github.com/manda9988/portfolio.git
    cd portfolioV3
    ```
 
