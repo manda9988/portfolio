@@ -32,7 +32,7 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
-      name: "FindMovies",
+      name: "BestMovies",
       summary: [
         "Une application pour découvrir des films populaires avec filtres par genre et année.",
         "React, Next.js, Chakra UI, TypeScript, TMDb API, Tailwind CSS.",
@@ -42,7 +42,7 @@ export const SITE_CONTENT: SiteContent = {
       image: "/movies1.png",
     },
     {
-      name: "BlogWave",
+      name: "Blog.",
       summary: [
         "Un blog généraliste et réactif pour partager des articles techniques et personnels.",
         "Astro, React, Tailwind CSS, et Bootstrap.",
