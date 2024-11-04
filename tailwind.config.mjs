@@ -19,7 +19,7 @@ export default {
       "3xl": ["2rem", "2.375rem"],
       "4xl": ["2.25rem", "2.688rem"],
       "5xl": ["2.5rem", "3rem"],
-      "6xl": ["3rem", "3.625rem"],
+      "6xl": ["3rem", "3rem"],
       "7xl": ["3.75rem", "1"],
       "8xl": ["4.5rem", "4.875rem"],
       "9xl": ["6rem", "6.625rem"],

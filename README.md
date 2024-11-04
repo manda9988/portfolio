@@ -1,7 +1,5 @@
 # Portfolio de Vincent Achy — Développeur Front-End
 
-Bienvenue sur mon portfolio ! Ce site présente mes compétences en développement Front-End, mes projets, et mes informations de contact.
-
 ## Fonctionnalités principales
 
 - **Section d’accueil (Hero)** : Présente mon parcours, ma spécialisation en développement d’interfaces utilisateur et d’applications web performantes.
