@@ -32,16 +32,6 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
-      name: "Blog.",
-      summary: [
-        "Un blog généraliste et réactif pour partager des articles techniques et personnels.",
-        "Astro, React, Tailwind CSS, et Bootstrap.",
-      ],
-      linkPreview: "https://blog-vincent-achy.vercel.app/",
-      linkSource: "https://github.com/manda9988/BlogV3",
-      image: "/blog2.png",
-    },
-    {
       name: "BestMovies",
       summary: [
         "Une application pour découvrir des films populaires avec filtres par genre et année.",
@@ -50,6 +40,16 @@ export const SITE_CONTENT: SiteContent = {
       linkPreview: "https://findmovies-va.vercel.app/",
       linkSource: "https://github.com/manda9988/bestMoviesV2",
       image: "/movies.png",
+    },
+    {
+      name: "Blog.",
+      summary: [
+        "Un blog généraliste et réactif pour partager des articles techniques et personnels.",
+        "Astro, React, Tailwind CSS, et Bootstrap.",
+      ],
+      linkPreview: "https://blog-vincent-achy.vercel.app/",
+      linkSource: "https://github.com/manda9988/BlogV3",
+      image: "/blog2.png",
     },
 
     {
