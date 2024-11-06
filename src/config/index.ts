@@ -66,7 +66,7 @@ export const SITE_CONTENT: SiteContent = {
   contact: {
     email: "vincent.achy@gmail.com",
     links: [
-      { label: "Curriculum vitae", url: "/cv-vincent-achy.pdf" },
+      { label: "Curriculum vitae", url: "/cv-vincent-achy1.pdf" },
       { label: "GitHub", url: "https://github.com/manda9988" },
       {
         label: "LinkedIn",
