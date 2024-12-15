@@ -1,50 +1,34 @@
-# Portfolio de Vincent Achy — Développeur Front-End
+# **Portfolio de Vincent Achy**
 
-## Fonctionnalités principales
+## **Technologies utilisées**
 
-- **Section d’accueil (Hero)** : Présente mon parcours, ma spécialisation en développement d’interfaces utilisateur et d’applications web performantes.
-- **Projets** : Showcase de mes principaux projets avec un bref descriptif, technologies utilisées, et liens pour voir le projet ou le code source.
-- **Contact** : Informations pour me contacter et liens vers mon LinkedIn et GitHub.
+- **Astro** : Structure et génération de pages statiques.
+- **Tailwind CSS** : Styles et responsive design.
+- **TypeScript** : Typage sécurisé et maintenabilité.
 
-## Technologies utilisées
+---
 
-- **[Astro](https://astro.build/)** : Framework principal pour la structure du site.
-- **[Tailwind CSS](https://tailwindcss.com/)** : Utilisé pour la gestion des styles et le design responsive.
-- **TypeScript** : Pour la robustesse du code.
-- **Polices** : _Be Vietnam Pro_ et _Gabarito Variable_.
+## **Installation rapide**
 
-## Installation et démarrage
-
-1. **Cloner le dépôt** :
-
+1. **Cloner le projet** :
    ```bash
    git clone https://github.com/manda9988/portfolio.git
    cd portfolioV3
    ```
-
 2. **Installer les dépendances** :
-
    ```bash
    pnpm install
    ```
-
-3. **Démarrer le serveur de développement** :
+3. **Démarrer le serveur local** :
    ```bash
    pnpm dev
    ```
-   Le site est alors accessible sur `http://localhost:3000`.
 
-## Structure du projet
+Accéder au site : `http://localhost:3000`
 
-- **`/src/components`** : Composants Astro (Hero, Projects, Contact).
-- **`/src/pages`** : Pages principales du site.
-- **`/public`** : Images et fichiers statiques.
-- **`tailwind.config.mjs`** : Configuration Tailwind pour les styles.
-- **`astro.config.mjs`** : Configuration Astro.
+---
 
-## Auteur
+## **Auteur**
 
 **Vincent Achy**  
 [LinkedIn](https://www.linkedin.com/in/vincent-achy-1704421a9/) | [GitHub](https://github.com/manda9988)
-
----
