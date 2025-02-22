@@ -13,7 +13,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Vincent Achy",
     specialty: "Développeur Front-End",
     summary: [
-      '<span class="text-custom1">Développeur Front-End spécialisé en React, Next.js et TypeScript, je conçois des interfaces modernes, performantes et accessibles, en mettant l’accent sur l’optimisation et l’expérience utilisateur.</span> ',
+      "Développeur Front-End spécialisé en React, Next.js et TypeScript, je conçois des interfaces modernes, performantes et accessibles, en mettant l’accent sur l’optimisation et l’expérience utilisateur. ",
     ],
   },
   experience: [

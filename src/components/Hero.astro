@@ -12,14 +12,14 @@ const { name, specialty, summary } = Astro.props;
     {name}
   </h1>
   <p
-    class="text-3xl md:text-5xl leading-[46px] font-serif text-primary font-bold tracking-tighter mb-12"
+    class="text-3xl md:text-5xl leading-[46px] font-serif text-primary font-bold tracking-tighter mb-6"
   >
     {specialty}
   </p>
   {
     summary.map((paragraph) => (
       <p
-        class="text-neutral font-normal text-sm  md:text-lg mb-4"
+        class="text-custom1 font-light text-sm  md:text-base mb-4"
         set:html={paragraph}
       />
     ))
