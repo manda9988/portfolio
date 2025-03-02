@@ -1,10 +1,12 @@
+// index.ts
+
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
   title: "Vincent Achy — Développeur Front-End",
   author: "Vincent Achy",
   description:
-    "Développeur Front-End basé à Paris, spécialisé dans la création d’interfaces utilisateur et le développement d’applications web performantes et intuitives.",
+    "Développeur Front-End spécialisé en React, Next.js et TypeScript, je crée des interfaces modernes et optimisées en performances, SEO et design pour une expérience utilisateur fluide et efficace.",
   lang: "en",
 };
 
@@ -13,7 +15,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Vincent Achy",
     specialty: "Développeur Front-End",
     summary: [
-      "Développeur Front-End spécialisé en React, Next.js et TypeScript, je conçois des interfaces modernes, performantes et accessibles, en mettant l’accent sur l’optimisation et l’expérience utilisateur. ",
+      "Développeur Front-End spécialisé en React, Next.js et TypeScript, je crée des interfaces modernes et optimisées en performances, SEO et design pour une expérience utilisateur fluide et efficace.",
     ],
   },
   experience: [
